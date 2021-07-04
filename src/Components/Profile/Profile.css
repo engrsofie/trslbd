@@ -1,0 +1,56 @@
+.bg-img1{
+    background-image: url('../images/cnsys_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 253px 200px;
+}
+.bg-img2{
+    background-image: url('../images/fcty-cadio.jpg');
+    background-repeat: no-repeat;
+    background-size: 253px 200px;
+
+}
+.bg-img3{
+    background-image: url('../images/general_medicine.jpg');
+    background-repeat: no-repeat;
+    background-size: 253px 200px;
+}
+.bg-img4{
+    background-image: url('../images/fcty_rorfan.jpg');
+    background-repeat: no-repeat;
+    background-size: 253px 200px;
+}
+.underline-gap {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 20px;
+  }
+  .img-size img{
+      width: 80px;
+      height: 80px;
+        margin-top: 155px;
+        
+  } 
+  .size1 img{
+    background-color: #008F9C;
+  }
+  
+  .size2 img{
+    background-color: #AA2D78;
+  }
+  .size3 img{
+    background-color: #E85C0F;
+  }
+  .size4 img{
+    background-color: #629E3D;
+  }
+  .coint p{
+    color: #00587C;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .coint small{
+    color: #59575B;
+    font-size: 30px;
+    font-weight: 200;
+  }

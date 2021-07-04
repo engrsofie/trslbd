@@ -1,0 +1,13 @@
+.nav-img{
+    height: 65px;
+    width: 60px;
+    position: absolute ;
+}
+.navText {
+    margin-left: 300px;
+    
+}
+.navT a{
+    text-decoration: none;
+    color: black;
+}

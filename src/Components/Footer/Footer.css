@@ -1,0 +1,33 @@
+.test {
+    height: 200px;
+    }
+.test img{
+        height: 70px;
+        width:70px
+        }
+.test {
+margin-top: 60px;
+text-align: center;
+ }
+.footerMenu{
+padding:5px;
+margin-bottom: 40px;
+
+}
+.footerText {
+margin-top: 80px;
+text-decoration: none;
+}
+.footerText a{
+    text-decoration: none;
+    }
+.bgFooter{
+    background-color: #005A84;
+}
+.bgFooter1{
+    color: #2A6E8E;
+    background-color: #005177;
+}
+.fontA{
+    letter-spacing: 10px;
+}
