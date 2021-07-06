@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import NavbarSection from './Components/NavbarSection/NavbarSection';
 import Slider from './Components/Slider/Slider';
 import Core from './Components/Core/Core';
 import Profile from './Components/Profile/Profile';
@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div>
-      <Navbar/>
+      <NavbarSection/>
       <Slider />
       <Core />
       <Profile/>

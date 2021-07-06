@@ -15,31 +15,27 @@ import ll_05 from '../images/ll_05.png';
 const Concern = () => {     
 
     return (
-        <div className="Concern ">
-       <div className="card-text text-center">
-        <b>Our Ohter Concern</b>
-    
-      </div>
-      <OwlCarousel 
-    className='owl-theme mt-3' 
-    loop margin={10} loop={true} autoplay={true} >
-    <div className='item cardStyle'>
-        <img style={{width:'250px', height:'250px'}} src={ll_01} alt=""/>
-    </div>
-    <div className='item cardStyle'>
-        <img style={{width:'250px', height:'250px'}} src={ll_02} alt=""/>
-    </div>
-    <div className='item cardStyle'>
-        <img style={{width:'250px', height:'250px'}} src={ll_03} alt=""/>
-    </div>
-    <div className='item cardStyle'>
-        <img style={{width:'250px', height:'250px'}} src={ll_04} alt=""/>
-    </div>
-    <div className='item cardStyle'>
-        <img style={{width:'250px', height:'250px'}} src={ll_05} alt=""/>
-    </div>
-</OwlCarousel>;
-
+        <div className="Concern">
+            <div className="card-text text-center">
+                <b>Our Ohter Concern</b>
+            </div>
+            <OwlCarousel  className='owl-theme mt-3'  loop margin={10} loop={true} autoplay={true} >
+                <div className='item cardStyle'>
+                    <img style={{width:'250px', height:'250px'}} src={ll_01} alt=""/>
+                </div>
+                <div className='item cardStyle'>
+                    <img style={{width:'250px', height:'250px'}} src={ll_02} alt=""/>
+                </div>
+                <div className='item cardStyle'>
+                    <img style={{width:'250px', height:'250px'}} src={ll_03} alt=""/>
+                </div>
+                <div className='item cardStyle'>
+                    <img style={{width:'250px', height:'250px'}} src={ll_04} alt=""/>
+                </div>
+                <div className='item cardStyle'>
+                    <img style={{width:'250px', height:'250px'}} src={ll_05} alt=""/>
+                </div>
+            </OwlCarousel>;
         </div>
     );
 };

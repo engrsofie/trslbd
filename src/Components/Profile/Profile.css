@@ -1,23 +1,30 @@
 .bg-img1{
     background-image: url('../images/cnsys_img.jpg');
     background-repeat: no-repeat;
-    background-size: 253px 200px;
+    background-size: cover;
+    height: 200px;
 }
 .bg-img2{
     background-image: url('../images/fcty-cadio.jpg');
     background-repeat: no-repeat;
-    background-size: 253px 200px;
+    background-size: cover;
+    height: 200px;
 
 }
 .bg-img3{
     background-image: url('../images/general_medicine.jpg');
     background-repeat: no-repeat;
-    background-size: 253px 200px;
+    background-size: cover;
+    height: 200px;
 }
 .bg-img4{
     background-image: url('../images/fcty_rorfan.jpg');
     background-repeat: no-repeat;
-    background-size: 253px 200px;
+    background-size: cover;
+    height: 200px;
+}
+.card-size{
+  height: 430px;
 }
 .underline-gap {
     text-decoration: underline;
