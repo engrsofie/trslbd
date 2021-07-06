@@ -1,0 +1,28 @@
+.Product{
+    margin-top: 100px;
+}
+.productImg{
+    margin: 40px;
+    padding:10px;
+}
+.Item{
+    position: relative;
+    background-color: #629E3D;
+    padding: 5px;
+    color:white;
+}
+.Item h6{
+    margin-left: 90px;
+}
+.ProductHeading h1{
+color: #5A5959;
+text-align: center;
+background-color: #F0F1F5;
+padding: 80px;
+}
+.ProductHeading p{
+    margin-top:50px;
+    text-align: center;
+    color: #5A5959;
+    font-size: 20px;
+    }

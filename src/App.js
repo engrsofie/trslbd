@@ -1,25 +1,39 @@
 import React from 'react';
 import './App.css';
-import NavbarSection from './Components/NavbarSection/NavbarSection';
-import Slider from './Components/Slider/Slider';
-import Core from './Components/Core/Core';
-import Profile from './Components/Profile/Profile';
-import Concern from './Components/Concern/Concern';
-import Truly from './Components/Truly/Truly';
-import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
+import Product from './Components/Product/Product';
+import Machinaries from './Components/Machinaries/Machinaries';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div>
-      <NavbarSection/>
-      <Slider />
-      <Core />
-      <Profile/>
-     <Concern/>
-     <Truly/>
-     <Footer/>
-    </div>
+    <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/Product">
+            <Product></Product>
+            </Route>
+            <Route path="/Machinaries">
+            <Machinaries></Machinaries>
+            </Route>
+          </Switch>
+        </Router>
+
+
+
+
+
+
+
   );
 }
 
