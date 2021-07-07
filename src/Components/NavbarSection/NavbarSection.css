@@ -5,3 +5,6 @@
 .NavT{
     margin-right: 190px;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}

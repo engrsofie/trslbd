@@ -20,7 +20,6 @@ const Home = () => {
     <Concern/> 
     <Truly/>
     <Footer/>
-    <Product/>
         </div>
     );
 };

@@ -12,17 +12,17 @@ const NavbarSection = () => {
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav" >
     <Nav className="mr-auto ml-5 ">
-    <NavDropdown className="" title="ABOUT" id="nav-dropdown">
+    <NavDropdown className="text-dark" title="ABOUT" id="nav-dropdown ">
         <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
         <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
         <NavDropdown.Item eventKey="4.3"><img className="d-block w-100 " src={logo} alt="First slide"/>
     </NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link  className="ml-4" as= {Link} to='/Product' >PRODUCTS</Nav.Link>
-      <Nav.Link className="ml-4" as= {Link} to='/Machinaries'>MACHINARIES</Nav.Link>
-      <Nav.Link className="ml-4" as= {Link} to='/Product'>BUYERS</Nav.Link>
-      <Nav.Link className="ml-4" as= {Link} to='/Product'>PREMISES</Nav.Link>
-      <Nav.Link className="ml-4" as= {Link} to='/Product'>R&D</Nav.Link>
+      <Nav.Link  className="ml-4 text-dark" as= {Link} to='/Product' >PRODUCTS</Nav.Link>
+      <Nav.Link className="ml-4 text-dark" as= {Link} to='/Machinaries'>MACHINARIES</Nav.Link>
+      <Nav.Link className="ml-4 text-dark" as= {Link} to='/Product'>BUYERS</Nav.Link>
+      <Nav.Link className="ml-4 text-dark" as= {Link} to='/Product'>PREMISES</Nav.Link>
+      <Nav.Link className="ml-4 text-dark" as= {Link} to='/Product'>R&D</Nav.Link>
     <Link to="/Product">  <button   type="button" class="btn btn-success ml-5 ">CONTACT US</button></Link>
     </Nav>
   </Navbar.Collapse>
