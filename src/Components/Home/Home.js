@@ -6,7 +6,6 @@ import Profile from '../Profile/Profile';
 import Concern from '../Concern/Concern';
 import Truly from '../Truly/Truly';
 import Footer from '../Footer/Footer';
-import Product from '../Product/Product';
 
 
 

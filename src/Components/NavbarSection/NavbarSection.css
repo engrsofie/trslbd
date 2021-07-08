@@ -8,3 +8,13 @@
 .navbar-light .navbar-nav .nav-link {
     color: #343a40;
 }
+.NavImg img{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 300px;
+    padding-right: 10px;
+}
+.NavImg{
+    display: flex;
+
+}

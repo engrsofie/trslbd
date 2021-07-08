@@ -14,11 +14,11 @@ const Machinaries = () => {
             </div>
             <div className="ProductHeading">
                 <h1>Machinaries</h1>
-                <p>Constantly upgrading in machineries to make production more efficient and deliver the best quality in shortest possible lead-time. Currently having 525 Jacquard Machine from 3gg to 12 gg.</p>
+                <p className="container">Constantly upgrading in machineries to make production more efficient and deliver the best quality in shortest possible lead-time. Currently having 525 Jacquard Machine from 3gg to 12 gg.</p>
                 <h3>Production Capacity : 2, 80,000 – 3, 00,000 Pcs / Month</h3>
             </div>
            </div>
-           <div className="container">
+           <div className="container TableStyle">
            <Table striped bordered hover>
   <thead>
     <tr>

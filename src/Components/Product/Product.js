@@ -2,10 +2,7 @@ import React from 'react';
 import './Product.css';
 import Footer from '../Footer/Footer';
 import NavbarSection from '../NavbarSection/NavbarSection';
-import {
-    Card, Button, CardImg, CardTitle, CardText, CardGroup,
-    CardSubtitle, CardBody
-  } from 'reactstrap';
+import {Card, CardImg, CardGroup} from 'reactstrap';
   import p01 from '../images/01.jpg';
   import p02 from '../images/02.jpg';
   import p03 from '../images/03.jpg';
@@ -28,6 +25,7 @@ import {
   import p20 from '../images/20.jpg';
   import p21 from '../images/21.jpg';
   import {FaHome, FaChevronRight } from "react-icons/fa";
+  
 
 const Product = () => {
     return (
@@ -39,7 +37,7 @@ const Product = () => {
             </div>
             <div className="ProductHeading">
                 <h1>Products</h1>
-                <p>Constantly upgrading in machineries to make production more efficient and deliver the best quality in shortest possible lead-time. Recently, mported 100 sets of Jacquard Machine and soon this year will acquire 200 new sets of 5gg, 7gg and 12gg jacquard machines.</p>
+                <p className="container">Constantly upgrading in machineries to make production more efficient and deliver the best quality in shortest possible lead-time. Recently, mported 100 sets of Jacquard Machine and soon this year will acquire 200 new sets of 5gg, 7gg and 12gg jacquard machines.</p>
             </div>
             <CardGroup >
       <Card className="productImg">
