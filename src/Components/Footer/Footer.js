@@ -1,35 +1,36 @@
 import React from 'react';
 import footerLogo from '../images/footer-logo.png';
 import './Footer.css';
+import { Link  } from 'react-router-dom';
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className=" bgFooter ">
             <div className="container row">
-                <div className="col-md-4 test text-white">
+                <div className="col-md-5 FooterLogo text-white">
                     <img src={footerLogo} />
                     <p className="mt-4">CONNECT WITH TRSLBD</p>
-                    <h3 className="fontA ">< FaFacebookSquare /> <FaTwitterSquare/> <FaLinkedin/> <FaInstagram/></h3>
+                     <a target="_blank" className="fontA" href=" https://www.facebook.com/"> <FaFacebookSquare/></a> <a target="_blank" className="fontA" href="https://twitter.com/"><FaTwitterSquare/></a> <a target="_blank" className="fontA" href="https://www.linkedin.com/"><FaLinkedin/></a> <a target="_blank" className="fontA" href="https://www.instagram.com/"><FaInstagram/></a>
                 </div>
 
                 <div className="col-md-6 footerText ml-md-5">
                     <div className="footerMenu text-white d-flex flex-wrap">
-                        <a className="footerMenu  text-white " href="">PRODUCTS</a>
+                        <a  className="footerMenu  text-white " href="/Product">PRODUCTS</a>
                         <a className="footerMenu text-white " href="">|</a>
-                        <a className="footerMenu text-white " href="">MACHINARIES</a>
+                        <a className="footerMenu text-white " href="/Machinaries">MACHINARIES</a>
                         <a className="footerMenu text-white " href="">|</a>
-                        <a className="footerMenu text-white " href="">BUYERS</a>
+                        <a className="footerMenu text-white " href="/Buyers">BUYERS</a>
                         <a className="footerMenu text-white " href="">|</a>
-                        <a className="footerMenu text-white " href="">PREMISES</a>
+                        <a className="footerMenu text-white " href="/Premises">PREMISES</a>
                         <a className="footerMenu text-white " href="">|</a>
-                        <a className="footerMenu text-white" href="">R&D</a>
+                        <a className="footerMenu text-white" href="/RD">R&D</a>
                     </div>
                     <div>
-                        <a className="footerMenu text-white" href="">COMPANY SUMMARY</a>
+                        <a className="footerMenu text-white" href="/CompanySummary">COMPANY SUMMARY</a>
                         <a className="footerMenu text-white" href="">|</a>
-                        <a className="footerMenu text-white" href="">MANAGEMENTS WORD</a>
+                        <a className="footerMenu text-white" href="/Managements">MANAGEMENTS WORD</a>
                         <a className="footerMenu text-white" href="">|</a>
-                        <a className="footerMenu text-white" href="">CONTACT US</a>
+                        <a className="footerMenu text-white" href="/Contact">CONTACT US</a>
                     </div>
                 </div>
             </div>

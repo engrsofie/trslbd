@@ -1,0 +1,9 @@
+.Contact{
+    border-right: 1px solid black;
+    margin-top: 25px;
+    margin-bottom:60px;
+}
+.ContactText{
+    font-size: 18px;
+    line-height: 2.2;
+}
