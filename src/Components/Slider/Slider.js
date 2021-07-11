@@ -15,8 +15,8 @@ const Slider = () => {
               alt="First slide"
             />
             <Carousel.Caption className="top-txt">
-              <b><p>PLAIRE STUDIO</p></b>
-              <small>THE FASHION AIRPORT</small>
+              <p className="display-4 font-weight-bold test" >PLAIRE STUDIO</p>
+              <small className="display-4 text-muted">THE FASHION AIRPORT</small>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={500}>
@@ -25,9 +25,9 @@ const Slider = () => {
               src={pic2}
               alt="Second slide"
             />
-            <Carousel.Caption className="top-txt">
-              <b><p>PLAIRE STUDIO</p></b>
-              <small>THE FASHION AIRPORT</small>
+            <Carousel.Caption className="top-txt1">
+            <p className="display-4 font-weight-bold text-secondary" >PLAIRE STUDIO</p>
+              <small className="display-4 text-info">THE FASHION AIRPORT</small>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -36,9 +36,9 @@ const Slider = () => {
               src={pic3}
               alt="Third slide"
             />
-            <Carousel.Caption className="top-txt">
-              <b><p>PLAIRE STUDIO</p></b>
-              <small>THE FASHION AIRPORT</small>
+            <Carousel.Caption className="top-txt2">
+            <p className="display-4 font-weight-bold " >PLAIRE STUDIO</p>
+              <small className="display-4 text-primary">THE FASHION AIRPORT</small>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

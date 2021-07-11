@@ -24,7 +24,7 @@ const Core = () => {
               <img class="image__img w-100" src={g4_1} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">ON TIME SHIPMENT</h5>
               <div class="image__overlay image__overlay--primary">
-                <p className="text-justify w-75 ">Keeping the most important commitment since 2000. Our experienced team’s combined effort and workmanship has converted this core into our strength and has created a well reputation in the market of maintaining on time delivery.</p>
+                <p className="text-justify w-75  ">Keeping the most important commitment since 2000. Our experienced team’s combined effort and workmanship has converted this core into our strength and has created a well reputation in the market of maintaining on time delivery.</p>
                 <Link to="/Contact">  <button   type="button" class="btn btn-success ">VIEW MORE...</button></Link>
               </div>
 
@@ -33,7 +33,7 @@ const Core = () => {
               <img class="image__img w-100" src={g4_2} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">DESIGN STUDIO</h5>
               <div class="image__overlay image__overlay--primary">
-                <p className="text-justify w-75">The new wing of TRSLBD, PLAIRE Studio has been an added strength to gain competitive advantage in the market for which we can give our customers fast and with the trend, development support of designs. Our young, energetic and trend aware team makes it fast and easy for our customer to develop their designs as well saves their cost by offering developments based on their consumer and trend updates.</p>
+                <p  className="text-justify w-75 ">The new wing of TRSLBD, PLAIRE Studio has been an added strength to gain competitive advantage in the market for which we can give our customers fast and with the trend, development support of designs. Our young, energetic and trend aware team makes it fast and easy for our customer to develop their designs as well saves their cost by offering developments based on their consumer and trend updates.</p>
                 <Link to="/Contact">  <button type="button" class="btn btn-success ">VIEW MORE...</button></Link>
               </div>
             </div>

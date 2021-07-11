@@ -67,33 +67,6 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-6">
-            {/* <from onSubmit={sendEmail}>
-              <div className="from-group pt-5 mx-auto">
-                <input type="text" className="from-control" placeholder="Name" name="name"/>
-              </div>
-              <div className="from-group pt-5 mx-auto">
-                <input type="email" className="from-control" placeholder="Email Address" name="email"/>
-              </div>
-              <div className="from-group pt-5 mx-auto">
-                <input type="text" className="from-control" placeholder="Subject" name="subject"/>
-              </div>
-              <div className="from-group pt-5 mx-auto">
-                <textarea type="text" className="from-control" placeholder="your message" name="message"></textarea>
-              </div>
-              <div className="">
-                <input type="submit" className="btn btn-info" value="Send Message"></input>
-              </div>
-            </from> */}
-
-
-
-
-
-
-
-
-
-
                 <Form onSubmit={sendEmail}>
                   <Form.Group controlId="exampleForm.ControlInput1">
                     <Form.Label>Full Name</Form.Label>
@@ -113,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 };

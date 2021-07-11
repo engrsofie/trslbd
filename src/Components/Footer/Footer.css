@@ -39,3 +39,16 @@ text-decoration: none;
 .fontA:hover{
     color:white;
 }
+@media only screen and (max-width: 600px) {
+.footerText a{
+    text-decoration: none;
+    line-height: 1;
+    font-size: 13px;
+ }
+}
+@media only screen and (max-width: 600px) {
+.footText{
+
+    margin-top: 20px;
+}
+}

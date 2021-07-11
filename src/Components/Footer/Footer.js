@@ -34,8 +34,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bgFooter1 text-center p-4">
-                 <small>© 2018. All Right Reserved by TRSLBD.</small>
+            <div className="bgFooter1 text-center p-4 footText">
+                 <small>© 2021. All Right Reserved by TRSLBD.</small>
             </div>
         </div>
     );
