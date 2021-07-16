@@ -9,7 +9,7 @@ const Profile = () => {
   return (
     <div className="container mt-4">
       <div className="coint text-center">
-        <p>Welcome to TRSLBD</p>
+        <p>Welcome to Trade Route Sourcing</p>
         <small>Manufacturing and Exporting Sweaters since year 1999.</small>
       </div>
       <div className="row mt-3">
@@ -35,7 +35,7 @@ const Profile = () => {
             <div className="bg-img2">
               <Image src={pic5} roundedCircle />
 
-              <h4>Products</h4>
+              <h4>Machineries</h4>
               <p>
                 From winding to Packing, the art is everywhere in the production
                 of our top quality winter wears.{" "}
@@ -52,7 +52,7 @@ const Profile = () => {
             <div className="bg-img3">
               <Image src={pic6} roundedCircle />
 
-              <h4>Products</h4>
+              <h4>Customers</h4>
               <p>
                 From winding to Packing, the art is everywhere in the production
                 of our top quality winter wears.{" "}
@@ -69,7 +69,7 @@ const Profile = () => {
             <div className="bg-img4">
               <Image src={pic7} roundedCircle />
 
-              <h4>Products</h4>
+              <h4>Profile</h4>
               <p>
                 From winding to Packing, the art is everywhere in the production
                 of our top quality winter wears.{" "}

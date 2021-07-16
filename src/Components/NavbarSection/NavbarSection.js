@@ -21,9 +21,9 @@ const NavbarSection = () => {
               <NavDropdown.Item eventKey="4.1" as={Link} to="/">
                 ABOUT US
               </NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.2" as={Link} to="/CompanySummary">
+              {/* <NavDropdown.Item eventKey="4.2" as={Link} to="/CompanySummary">
                 COMPANY SUMMARY
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item eventKey="4.3" as={Link} to="/Managements">
                 MANAGEMENTS WORD
               </NavDropdown.Item>
@@ -38,15 +38,15 @@ const NavbarSection = () => {
             <Nav.Link className="ml-4 text-dark" as={Link} to="/Product">
               PRODUCTS
             </Nav.Link>
-            <Nav.Link className="ml-4 text-dark" as={Link} to="/Machinaries">
+            {/* <Nav.Link className="ml-4 text-dark" as={Link} to="/Machinaries">
               MACHINARIES
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className="ml-4 text-dark" as={Link} to="/Customer">
               CUSTOMERS
             </Nav.Link>
-            <Nav.Link className="ml-4 text-dark" as={Link} to="/Premises">
+            {/* <Nav.Link className="ml-4 text-dark" as={Link} to="/Premises">
               PREMISES
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className="ml-4 text-dark" as={Link} to="/RD">
               R&D
             </Nav.Link>

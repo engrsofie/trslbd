@@ -49,7 +49,7 @@ const Core = () => {
               </h5>
               <div class="image__overlay image__overlay--primary">
                 <p className="text-justify w-75 ">
-                  The new wing of TRSLBD, PLAIRE Studio has been an added
+                  The new wing of Trade Route Sourcing, PLAIRE Studio has been an added
                   strength to gain competitive advantage in the market for which
                   we can give our customers fast and with the trend, development
                   support of designs. Our young, energetic and trend aware team

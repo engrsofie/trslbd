@@ -14,7 +14,7 @@ const Home = () => {
       <Slider/>
       <Core/>
       <Profile/>
-      <Concern/>
+      {/* <Concern/> */}
       <Truly/>
       <Footer/>
     </div>

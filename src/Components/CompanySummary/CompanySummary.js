@@ -22,8 +22,8 @@ const CompanySummary = () => {
         <div className="container">
           <p className="rd ">
             {" "}
-            <br /> <br /> TRSLBD Fashions LTD. & Radiant Sweater Ind. Ltd are
-            two units of manufacturing within TRSLBD, aspiring for complete
+            <br /> <br /> Trade Route Sourcing Fashions LTD. & Radiant Sweater Ind. Ltd are
+            two units of manufacturing within Trade Route Sourcing, aspiring for complete
             customer satisfaction owing to the high quality Sweater at
             competitive prices with an on-schedule delivery and perfection in
             service. It firmly believes that the satisfaction of the valued

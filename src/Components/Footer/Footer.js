@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container row">
         <div className="col-md-5 FooterLogo text-white">
           <img src={footerLogo} />
-          <p className="mt-4">CONNECT WITH TRSLBD</p>
+          <p className="mt-4">CONNECT WITH Trade Route Sourcing</p>
           <a
             target="_blank"
             className="fontA"
@@ -46,30 +46,30 @@ const Footer = () => {
             <a className="footerMenu text-white " href="">
               |
             </a>
-            <a className="footerMenu text-white " href="/Machinaries">
+            {/* <a className="footerMenu text-white " href="/Machinaries">
               MACHINARIES
             </a>
             <a className="footerMenu text-white " href="">
               |
-            </a>
+            </a> */}
             <a className="footerMenu text-white " href="/Customer">
-              Customer
+              CUSTOMERS
             </a>
             <a className="footerMenu text-white " href="">
               |
             </a>
-            <a className="footerMenu text-white " href="/Premises">
+            {/* <a className="footerMenu text-white " href="/Premises">
               PREMISES
             </a>
             <a className="footerMenu text-white " href="">
               |
-            </a>
+            </a> */}
             <a className="footerMenu text-white" href="/RD">
               R&D
             </a>
           </div>
           <div>
-            <a className="footerMenu text-white" href="/CompanySummary">
+            {/* <a className="footerMenu text-white" href="/CompanySummary">
               COMPANY SUMMARY
             </a>
             <a className="footerMenu text-white" href="">
@@ -80,7 +80,7 @@ const Footer = () => {
             </a>
             <a className="footerMenu text-white" href="">
               |
-            </a>
+            </a> */}
             <a className="footerMenu text-white" href="/Contact">
               CONTACT US
             </a>
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bgFooter1 text-center p-4 footText">
-        <small>© 2021. All Right Reserved by TRSLBD.</small>
+        <small>© 2021. All Right Reserved by Trade Route Sourcing.</small>
       </div>
     </div>
   );
