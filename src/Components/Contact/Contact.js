@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { FaHome, FaChevronRight } from "react-icons/fa";
 import { Form } from "react-bootstrap";
-import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt,FaMailBulk, FaGlobe } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -45,34 +45,25 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-5 Contact">
-              <h4 className="text-info">HEAD OFFICE</h4>
-              <div className="ContactText">
+              <h4 className="text-info text-center mt-3">OFFICE</h4>
+              <div className="ContactText mt-3">
                 <FaMapMarkerAlt />{" "}
-                <span> House#27, Road# 16, Sector#4, Uttara, Dhaka-1230</span>
-                <a href=""></a>
+                <span> House# 260/6, Room# 403 (3rd Floor), DHaka Biggan College, Bhaban-3, Malibagh, Dhaka-1217</span>
+                
                 <br />
-                <FaPhoneAlt /> <a href="tel:+880248952408">
-                  +880248952408
-                </a>{" "}
+                <FaPhoneAlt /> <a href="tel:+88 01711050429">+880248952405</a>
                 <br />
-                <FaPhoneAlt /> <a href="tel:+880248952405">+880248952405</a>
+                <FaMailBulk /> <a href="">shahin@trslbd.com</a>
+                <br />
+                <FaGlobe /> <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
+                
               </div>
 
               <br />
               <br />
               <br />
-              <h4 className="text-info">FACTORY COMPLEX</h4>
-              <div className="ContactText">
-                <FaMapMarkerAlt />{" "}
-                <span>
-                  {" "}
-                  Kamarjhuri, National University, Gazipur, Bangladesh
-                </span>
-                <a href=""></a> <br />
-                <FaPhoneAlt /> <a href="tel:+88029293364">+88029293364</a>{" "}
-                <br />
-                <FaPhoneAlt /> <a href="tel:+88029291559">+88029291559</a>
-              </div>
+              
+
             </div>
             <div className="col-md-6">
               <Form onSubmit={sendEmail}>

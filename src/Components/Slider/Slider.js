@@ -23,7 +23,7 @@ const Slider = () => {
           <p className="display-4 font-weight-bold text-secondary">
             PLAIRE STUDIO
           </p>
-          <small className="display-4 text-info">THE FASHION AIRPORT</small>
+          <small className="display-4 text-danger">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,14 +36,14 @@ const Slider = () => {
       <Carousel.Item>
         <img className="d-block w-100 c-img" src={pic4} alt="Third slide" />
         <Carousel.Caption className="top-txt2">
-          <p className="display-4 font-weight-bold ">PLAIRE STUDIO</p>
+          <p className="display-4 font-weight-bold text-danger">PLAIRE STUDIO</p>
           <small className="display-4 text-primary">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 c-img" src={pic5} alt="Third slide" />
         <Carousel.Caption className="top-txt2">
-          <p className="display-4 font-weight-bold ">PLAIRE STUDIO</p>
+          <p className="display-4 font-weight-bold text-dark ">PLAIRE STUDIO</p>
           <small className="display-4 text-primary">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>

@@ -10,7 +10,7 @@ const Profile = () => {
     <div className="container mt-4">
       <div className="coint text-center">
         <p>Welcome to Trade Route Sourcing</p>
-        <small>Manufacturing and Exporting Sweaters since year 1999.</small>
+        <small>Manufacturing and Exporting Garments since year 2015.</small>
       </div>
       <div className="row mt-3">
         <div className="col-md-3 text-center card-size mb-3 img-size size1 text-size ">

@@ -31,7 +31,7 @@ const Customer = () => {
         </div>
         <div className="ProductHeading">
           <h1>Customers</h1>
-          <CardGroup>
+          {/* <CardGroup>
             <Card className="productImg">
               <CardImg src={p1} alt="Card image cap" />
             </Card>
@@ -41,7 +41,7 @@ const Customer = () => {
             <Card className="productImg">
               <CardImg src={p3} alt="Card image cap" />
             </Card>
-          </CardGroup>
+          </CardGroup> */}
           <CardGroup>
             <Card className="productImg">
               <CardImg src={p4} alt="Card image cap" />
@@ -50,10 +50,10 @@ const Customer = () => {
               <CardImg src={p5} alt="Card image cap" />
             </Card>
             <Card className="productImg">
-              <CardImg src={p6} alt="Card image cap" />
+              <CardImg src={pp11} alt="Card image cap" />
             </Card>
           </CardGroup>
-          <CardGroup>
+          {/* <CardGroup>
             <Card className="productImg">
               <CardImg src={p7} alt="Card image cap" />
             </Card>
@@ -63,14 +63,12 @@ const Customer = () => {
             <Card className="productImg">
               <CardImg src={p9} alt="Card image cap" />
             </Card>
-          </CardGroup>
+          </CardGroup> */}
           <CardGroup>
             <Card className="productImg">
               <CardImg src={pp10} alt="Card image cap" />
             </Card>
-            <Card className="productImg">
-              <CardImg src={pp11} alt="Card image cap" />
-            </Card>
+            
             <Card className="productImg">
               <CardImg src={pp12} alt="Card image cap" />
             </Card>
