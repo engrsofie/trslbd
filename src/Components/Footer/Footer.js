@@ -43,8 +43,7 @@ const Footer = () => {
         <div className="col-md-6 footerText ml-md-5">
           <div className="footerMenu text-white d-flex flex-wrap">
 
-            {/* <a className="footerMenu  text-white " href="/Product"></a> */}
-            <Nav.Link className="ml-4 text-dark" as={Link} to="/Customer">Product</Nav.Link>
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Product">P R O D U C T</Nav.Link>
 
             <a className="footerMenu text-white " href=""> |</a>
             {/* <a className="footerMenu text-white " href="/Machinaries">
@@ -53,9 +52,10 @@ const Footer = () => {
             <a className="footerMenu text-white " href="">
               |
             </a> */}
-            <a className="footerMenu text-white " href="/Customer">
-              CUSTOMERS
-            </a>
+            
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Customer">C U S T O M E R S</Nav.Link>
+
+             
             <a className="footerMenu text-white " href="">
               |
             </a>
@@ -65,9 +65,7 @@ const Footer = () => {
             <a className="footerMenu text-white " href="">
               |
             </a> */}
-            <a className="footerMenu text-white" href="/RD">
-              R&D
-            </a>
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/RD">R & D</Nav.Link>
           </div>
           <div>
             {/* <a className="footerMenu text-white" href="/CompanySummary">
@@ -82,9 +80,8 @@ const Footer = () => {
             <a className="footerMenu text-white" href="">
               |
             </a> */}
-            <a className="footerMenu text-white" href="/Contact">
-              CONTACT US
-            </a>
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Contact">C O N T A C T</Nav.Link>
+
           </div>
         </div>
       </div>
