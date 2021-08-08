@@ -13,37 +13,37 @@ const Slider = () => {
       <Carousel.Item interval={1000}>
         <img className="d-block w-100 c-img" src={pic1} alt="First slide" />
         <Carousel.Caption className="top-txt">
-          <p className="display-4 font-weight-bold test">PLAIRE STUDIO</p>
+          {/* <p className="display-4 font-weight-bold test">PLAIRE STUDIO</p> */}
           <small className="display-4 text-muted">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img className="d-block w-100 c-img" src={pic2} alt="Second slide" />
         <Carousel.Caption className="top-txt1">
-          <p className="display-4 font-weight-bold text-secondary">
+          {/* <p className="display-4 font-weight-bold text-secondary">
             PLAIRE STUDIO
-          </p>
+          </p> */}
           <small className="display-4 text-danger">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 c-img" src={pic3} alt="Third slide" />
         <Carousel.Caption className="top-txt2">
-          <p className="display-4 font-weight-bold ">PLAIRE STUDIO</p>
+          {/* <p className="display-4 font-weight-bold ">PLAIRE STUDIO</p> */}
           <small className="display-4 text-primary">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 c-img" src={pic4} alt="Third slide" />
         <Carousel.Caption className="top-txt2">
-          <p className="display-4 font-weight-bold text-danger">PLAIRE STUDIO</p>
+          {/* <p className="display-4 font-weight-bold text-danger">PLAIRE STUDIO</p> */}
           <small className="display-4 text-primary">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 c-img" src={pic5} alt="Third slide" />
         <Carousel.Caption className="top-txt2">
-          <p className="display-4 font-weight-bold text-dark ">PLAIRE STUDIO</p>
+          {/* <p className="display-4 font-weight-bold text-dark ">PLAIRE STUDIO</p> */}
           <small className="display-4 text-primary">THE FASHION AIRPORT</small>
         </Carousel.Caption>
       </Carousel.Item>

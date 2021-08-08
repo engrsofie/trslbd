@@ -4,7 +4,12 @@ import Footer from "../Footer/Footer";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { FaHome, FaChevronRight } from "react-icons/fa";
 import { Form } from "react-bootstrap";
-import { FaMapMarkerAlt, FaPhoneAlt,FaMailBulk, FaGlobe } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaMailBulk,
+  FaGlobe,
+} from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -45,25 +50,33 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-5 Contact">
-              <h4 className="text-info text-center mt-3">OFFICE</h4>
+              <h4 className="text-info text-center mt-3">BANGLADESH OFFICE</h4>
               <div className="ContactText mt-3">
                 <FaMapMarkerAlt />{" "}
-                <span> House# 260/6, Room# 403 (3rd Floor), DHaka Biggan College, Bhaban-3, Malibagh, Dhaka-1217</span>
-                
+                <span>
+                  {" "}
+                  House# 260/6, Room# 403 (3rd Floor), DHaka Biggan College,
+                  Bhaban-3, Malibagh, Dhaka-1217
+                </span>
                 <br />
                 <FaPhoneAlt /> <a href="tel:+88 01711050429">+880248952405</a>
                 <br />
                 <FaMailBulk /> <a href="">shahin@trslbd.com</a>
                 <br />
-                <FaGlobe /> <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
-                
+                <FaGlobe />{" "}
+                <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
               </div>
 
-              <br />
-              <br />
-              <br />
-              
-
+              <h4 className="text-info text-center mt-3">USA OFFICE</h4>
+              <div className="ContactText mt-3">
+                <FaMapMarkerAlt />{" "}
+                <span>
+                  {" "}
+                  29 Sobieski Street, Buffalo, New york, NY-14212, USA
+                </span>
+                <br />
+                <FaPhoneAlt /> <a href="tel:+88 01711050429">0016466832224</a>
+              </div>
             </div>
             <div className="col-md-6">
               <Form onSubmit={sendEmail}>
