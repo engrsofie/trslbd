@@ -6,126 +6,80 @@ import {FaHome, FaChevronRight } from "react-icons/fa";
 import { Link  } from 'react-router-dom';
 import {Card, CardImg, CardGroup} from 'reactstrap';
 
-import fac_01 from '../images/fac_01.jpg';
-  import fac_02 from '../images/fac_02.jpg';
-  import fac_03 from '../images/fac_03.jpg';
-  import fac_04 from '../images/fac_04.jpg';
-  import fac_05 from '../images/fac_05.jpg';
-  import fac_06 from '../images/fac_06.jpg';
-  import fac_07 from '../images/fac_07.jpg';
-  import fac_08 from '../images/fac_08.jpg';
-  import fac_09 from '../images/fac_09.jpg';
-  import fac_10 from '../images/fac_10.jpg';
-  import fac_11 from '../images/fac_11.jpg';
-  import fac_12 from '../images/fac_12.jpg';
-  import fac_13 from '../images/fac_13.jpg';
-  import fac_14 from '../images/fac_14.jpg';
-  import fac_15 from '../images/fac_15.jpg';
-  import fac_16 from '../images/fac_16.jpg';
-  import fac_17 from '../images/fac_17.jpg';
-  import fac_18 from '../images/fac_18.jpg';
-  import fac_19 from '../images/fac_19.jpg';
-  import fac_20 from '../images/fac_20.jpg';
+import o_01 from "../images/garments/1.jpg";
+import o_02 from "../images/garments/2.jpg";
+import o_03 from "../images/garments/3.jpg";
+import o_04 from "../images/garments/4.jpg";
+import o_05 from "../images/garments/5.jpg";
+import o_06 from "../images/garments/6.jpg";
+import o_07 from "../images/garments/7.jpg";
+import o_08 from "../images/garments/8.jpg";
+import o_09 from "../images/garments/9.jpg";
+import o_10 from "../images/garments/10.jpg";
+import o_11 from "../images/garments/11.jpg";
+import o_12 from "../images/garments/12.jpg";
+import o_13 from "../images/garments/13.jpg";
+import o_14 from "../images/garments/14.jpg";
+import o_15 from "../images/garments/15.jpg";
+import o_16 from "../images/garments/16.jpg";
+import o_17 from "../images/garments/17.jpg";
+import o_18 from "../images/garments/18.jpg";
+import o_19 from "../images/garments/19.jpg";
+
 
 const Premises = () => {
     return (
-        <div>
-            <div className="Product">
-                <NavbarSection/>
-            <div className="Item">
-           <h6> <FaHome/> <FaChevronRight/> <span>Premises</span> </h6> 
-            </div>
-            <div className="ProductHeading">
-                <h1>Premises</h1>
-                </div>
-                <div className="btnS">
-                <Link to="/Factory">  <button type="button" class="btn btn-outline-success btn-lg active">F A C T O R Y</button></Link>
-                <Link to="/Office">  <button type="button" class="btn btn-outline-success btn-lg " >O F F I C E</button></Link>
-                </div>
-                <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_01} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_02} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_03} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_04} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_05} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_06} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_07} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_08} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_09} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_10} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_11} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_12} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_13} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_14} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_15} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_16} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_17} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_18} alt="Card image cap" />
-      </Card>
-    </CardGroup>
-
-    <CardGroup >
-      <Card className="productImg">
-        <CardImg  src={fac_19} alt="Card image cap" />
-      </Card>
-      <Card className="productImg">
-        <CardImg src={fac_20} alt="Card image cap" />
-      </Card>
-      
-    </CardGroup>
-                </div>
-                <Footer/>
+      <div>
+        <div className="Product">
+          <NavbarSection />
+          <div className="Item">
+            <h6>
+              {" "}
+              <FaHome /> <FaChevronRight /> <span>GARMENTS</span>{" "}
+            </h6>
+          </div>
+          <div className="ProductHeading">
+            <h1>PORTFOLIO</h1>
+          </div>
+          <div className="btnS">
+            <Link to="/Factory">
+              {" "}
+              <button
+                type="button"
+                class="btn btn-outline-success btn-lg active"
+              >
+                G A R M E N T S
+              </button>
+            </Link>
+            <Link to="/Office">
+              {" "}
+              <button type="button" class="btn btn-outline-success btn-lg ">
+                F A B R I C S
+              </button>
+            </Link>
+          </div>
+          <img src={o_01} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_02} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_03} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_04} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_05} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_06} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_07} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_08} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_09} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_10} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_11} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_12} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_13} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_14} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_15} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_16} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_17} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_18} class="img-fluid" alt="Responsive image"></img>
+          <img src={o_19} class="img-fluid" alt="Responsive image"></img>
         </div>
+        <Footer />
+      </div>
     );
 };
 

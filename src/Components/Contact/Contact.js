@@ -4,12 +4,7 @@ import Footer from "../Footer/Footer";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { FaHome, FaChevronRight } from "react-icons/fa";
 import { Form } from "react-bootstrap";
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaMailBulk,
-  FaGlobe,
-} from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt,FaMailBulk, FaGlobe } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -59,23 +54,42 @@ const Contact = () => {
                   Bhaban-3, Malibagh, Dhaka-1217
                 </span>
                 <br />
-                <FaPhoneAlt /> <a href="tel:+88 01711050429">+880248952405</a>
+                <FaPhoneAlt /> <a href="tel:+88 01711050429">+88 01312225111</a>
                 <br />
                 <FaMailBulk /> <a href="">shahin@trslbd.com</a>
                 <br />
                 <FaGlobe />{" "}
                 <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
               </div>
-
-              <h4 className="text-info text-center mt-3">USA OFFICE</h4>
+             <br />
+              <h4 className="text-info text-center mt-3">NEW WORK OFFICE</h4>
               <div className="ContactText mt-3">
                 <FaMapMarkerAlt />{" "}
                 <span>
                   {" "}
-                  29 Sobieski Street, Buffalo, New york, NY-14212, USA
+                  37-18, 73rd st (5th Floor) Suite 501, Jackson Heights, New
+                  York-11372
                 </span>
                 <br />
-                <FaPhoneAlt /> <a href="tel:+88 01711050429">0016466832224</a>
+                <FaPhoneAlt /> <a href="tel:+88 01711050429">+1646-683-2224</a>
+                <br />
+                <FaMailBulk /> <a href="">feroz@trslbd.com</a>
+                <br />
+                <FaGlobe />{" "}
+                <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
+              </div>
+              <br />
+              <h4 className="text-info text-center mt-3">CHINA OFFICE</h4>
+              <div className="ContactText mt-3">
+                <FaMapMarkerAlt />{" "}
+                <span>
+                  {" "}
+                  Room 201, Building D1, Zhihui Creative Park, Dongxiao Nan
+                  Road, Haizhu District, Guangzhou City, Guangdong Province
+                </span>
+                <br />            
+                <FaGlobe />{" "}
+                <a href="http://www.trslbd.com/">http://www.trslbd.com/</a>
               </div>
             </div>
             <div className="col-md-6">

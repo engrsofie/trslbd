@@ -37,7 +37,7 @@ const Product = () => {
             <FaHome /> <FaChevronRight /> <span>Products</span>{" "}
           </h6>
         </div>
-        <div className="ProductHeading">
+        {/* <div className="ProductHeading">
           <h1>Products</h1>
           <p className="container">
             Constantly upgrading in machineries to make production more
@@ -46,7 +46,7 @@ const Product = () => {
             this year will acquire 200 new sets of 5gg, 7gg and 12gg jacquard
             machines.
           </p>
-        </div>
+        </div> */}
         {/* <CardGroup >
       <Card className="productImg">
         <CardImg  src={p01} alt="Card image cap" />

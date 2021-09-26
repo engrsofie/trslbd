@@ -35,20 +35,29 @@ const NavbarSection = () => {
                 </div>
               </NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link className="ml-4 text-dark" as={Link} to="/">
+              HOME
+            </Nav.Link>
+
+            {/* <Nav.Link className="ml-4 text-dark" as={Link} to="/Machinaries">
+              Machinaries
+            </Nav.Link> */}
+
             <Nav.Link className="ml-4 text-dark" as={Link} to="/Product">
               PRODUCTS
             </Nav.Link>
-            {/* <Nav.Link className="ml-4 text-dark" as={Link} to="/Machinaries">
-              MACHINARIES
-            </Nav.Link> */}
+
             <Nav.Link className="ml-4 text-dark" as={Link} to="/Customer">
               CUSTOMERS
             </Nav.Link>
-            {/* <Nav.Link className="ml-4 text-dark" as={Link} to="/Premises">
-              PREMISES
-            </Nav.Link> */}
+
             <Nav.Link className="ml-4 text-dark" as={Link} to="/RD">
               R&D
+            </Nav.Link>
+
+            <Nav.Link className="ml-4 text-dark" as={Link} to="/Premises">
+              PORTFOLIO
             </Nav.Link>
             <Link to="/Contact">
               {" "}
