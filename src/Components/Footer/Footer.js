@@ -1,7 +1,9 @@
 import React from "react";
-import footerLogo from "../images/footer-logo.png";
+import footerLogo from "../images/logo.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import { NavDropdown, Navbar } from "react-bootstrap";
 import {
   FaFacebookSquare,
   FaTwitterSquare,
@@ -40,21 +42,20 @@ const Footer = () => {
 
         <div className="col-md-6 footerText ml-md-5">
           <div className="footerMenu text-white d-flex flex-wrap">
-            <a className="footerMenu  text-white " href="/Product">
-              PRODUCTS
-            </a>
-            <a className="footerMenu text-white " href="">
-              |
-            </a>
+
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Product">P R O D U C T</Nav.Link>
+
+            <a className="footerMenu text-white " href=""> |</a>
             {/* <a className="footerMenu text-white " href="/Machinaries">
               MACHINARIES
             </a>
             <a className="footerMenu text-white " href="">
               |
             </a> */}
-            <a className="footerMenu text-white " href="/Customer">
-              CUSTOMERS
-            </a>
+            
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Customer">C U S T O M E R S</Nav.Link>
+
+             
             <a className="footerMenu text-white " href="">
               |
             </a>
@@ -64,9 +65,7 @@ const Footer = () => {
             <a className="footerMenu text-white " href="">
               |
             </a> */}
-            <a className="footerMenu text-white" href="/RD">
-              R&D
-            </a>
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/RD">R & D</Nav.Link>
           </div>
           <div>
             {/* <a className="footerMenu text-white" href="/CompanySummary">
@@ -81,9 +80,8 @@ const Footer = () => {
             <a className="footerMenu text-white" href="">
               |
             </a> */}
-            <a className="footerMenu text-white" href="/Contact">
-              CONTACT US
-            </a>
+            <Nav.Link className="footerMenu  text-white" as={Link} to="/Contact">C O N T A C T</Nav.Link>
+
           </div>
         </div>
       </div>
