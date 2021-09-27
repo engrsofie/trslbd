@@ -3,7 +3,7 @@ import "./CompanySummary.css";
 import Footer from "../Footer/Footer";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { FaHome, FaChevronRight } from "react-icons/fa";
-import companysummary from "../images/company-summary.png";
+// import companysummary from "../images/company-summary.png";
 
 const CompanySummary = () => {
   return (
@@ -22,39 +22,31 @@ const CompanySummary = () => {
         <div className="container">
           <p className="rd ">
             {" "}
-            <br /> <br /> Trade Route Sourcing Fashions LTD. & Radiant Sweater Ind. Ltd are
-            two units of manufacturing within Trade Route Sourcing, aspiring for complete
-            customer satisfaction owing to the high quality Sweater at
-            competitive prices with an on-schedule delivery and perfection in
-            service. It firmly believes that the satisfaction of the valued
-            customers is the focal point of its business. In no time, the brand
-            has become a name to reckon within the manufactures of Pullovers,
-            Cardigans, Sweaters, Jumpers, Vests, Scarves and Woolen Cap etc, for
-            men, women and children. Manufacturing around 280,000 to 300,000 pcs
-            of both Basic and Fashionable, Fancy sweaters of valued customers
-            from 3gg – 12gg. <br /> <br /> The factories are fully compliant to
-            work with high standards holding the certification of BSCI, Oeko
-            Tex, Sadex and also upgrading to Wrap. The premises of total 200,000
-            sq ft working area is also Accord Certified. <br /> <br /> The
-            factory premises are run by experienced workers since year 2000. The
-            company proudly stands with the lowest employee turnover rate and
-            high employee satisfaction. All resources and facilities are
-            available within the premises around the clock. <br /> <br />{" "}
-            Specials team works on Fire Safety measures and everyone regularly
-            practicing fire drills to avoid panic attack during any accidents.
-            All fire safety measures are taken and necessary training and fire
-            fighters are managed on the floors. <br /> <br /> Along with the
-            quality and safety assurance, the group is also now concerned and
-            progressing on the creative development of business, expanding to
-            open PLAIRE Studio, a design and development wing that can give
-            ahead of time and fast fashion development support to Customer to
-            gain a competitive advantage. <br /> <br />{" "}
+            <br /> <br /> “Trade Route Sourcing offers a full range of apparel solutions for Ladies, Men’s, Essentials, Kids, and Babies.
+
+At Trade Route Sourcing, we design, develop, source and manufacture a wide range of apparel with each of our product lines developed by a dedicated team of in-house designers. Our design team travels extensively to identify the latest trends and use their skills, experience, and creativity to transform these trends into highly commercial designs.
+
+Trade Route Sourcing has Office in New York, USA & Dhaka, Bangladesh. We have factories located across all major sourcing destinations with dedicated sample workshops always ensuring a quick response and speed to market.
+
+Trade Route Sourcing provides products for international retailers who have brand values that are focused of outstanding quality, style, and exceptional value.
+
+The time and cost efficiencies delivered by our manufacturing partners in the Far East in desirable products hitting the shop floor in record time displaying a competitive price tag.
+
+Trade Route Sourcing offers our retail partners a complete solution, from design to production, combining the strengths from Bangladesh, China and India in providing an extensive diverse range of accessories.
+
+Trade Route Sourcing headquarters are in Dhaka, Bangladesh. We are one of the largest consumer goods design, product development, and sourcing, virtual manufacturing and distribution businesses in Asia. We work with global retailers and brands and specialize in delivering world class garments products at competitive prices.
+
+We provide complete sourcing solutions to our global customers managing each step in the global supply chain process for retailers and brands.
+
+Trade Route promotes an entrepreneurial culture thereby attracting the best and the brightest from the global supply chain industry. We have a diverse management team consisting of people from various backgrounds, nationalities, ethnicities and cultures.
+
+We hold ourselves to the highest standard of ethics and believe in complete transparency to all stakeholders. “ <br /> <br />{" "}
           </p>
-          <img
+          {/* <img
             src={companysummary}
             class="img-fluid"
             alt="Responsive image"
-          ></img>
+          ></img> */}
         </div>
       </div>
       <div className="mt-5">

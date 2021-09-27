@@ -17,24 +17,7 @@ const NavbarSection = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto ml-5 ">
-            <NavDropdown className="text-dark" title="ABOUT" id="nav-dropdown ">
-              <NavDropdown.Item eventKey="4.1" as={Link} to="/">
-                ABOUT US
-              </NavDropdown.Item>
-              {/* <NavDropdown.Item eventKey="4.2" as={Link} to="/CompanySummary">
-                COMPANY SUMMARY
-              </NavDropdown.Item> */}
-              <NavDropdown.Item eventKey="4.3" as={Link} to="/Managements">
-                MANAGEMENTS WORD
-              </NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.4">
-                <div className="NavImg">
-                  <img src={garment_01} alt="First slide" />
-                  <img src={garment_02} alt="First slide" />
-                  <img src={garment_03} alt="First slide" />
-                </div>
-              </NavDropdown.Item>
-            </NavDropdown>
+            
 
             <Nav.Link className="ml-4 text-dark" as={Link} to="/">
               HOME
@@ -57,8 +40,32 @@ const NavbarSection = () => {
             </Nav.Link>
 
             <Nav.Link className="ml-4 text-dark" as={Link} to="/Premises">
-              PORTFOLIO
+              PROFILE
             </Nav.Link>
+
+
+            <NavDropdown className="text-dark" title="ABOUT" id="nav-dropdown ">
+              {/* <NavDropdown.Item eventKey="4.1" as={Link} to="/">
+                ABOUT US
+              </NavDropdown.Item> */}
+              <NavDropdown.Item eventKey="4.2" as={Link} to="/CompanySummary">
+              ABOUT US
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.3" as={Link} to="/Managements">
+                MANAGEMENTS WORD
+              </NavDropdown.Item>
+              {/* <NavDropdown.Item eventKey="4.4">
+                <div className="NavImg">
+                  <img src={garment_01} alt="First slide" />
+                  <img src={garment_02} alt="First slide" />
+                  <img src={garment_03} alt="First slide" />
+                </div>
+              </NavDropdown.Item> */}
+            </NavDropdown>
+
+
+
+
             <Link to="/Contact">
               {" "}
               <button type="button" class="btn btn-success ml-5 ">

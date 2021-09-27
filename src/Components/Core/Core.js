@@ -16,7 +16,7 @@ const Core = () => {
             {" "}
             <br /> Core Strengths
           </p>
-          <small>Manufacturing and Exporting Sweaters since year 1999. </small>
+          <small>Manufacturing and Exporting Sweaters since year 2015. </small>
           <br />
           <br />
         </div>
@@ -29,7 +29,7 @@ const Core = () => {
               </h5>
               <div class="image__overlay image__overlay--primary">
                 <p className="text-justify w-75  ">
-                  Keeping the most important commitment since 2000. Our
+                  Keeping the most important commitment since 2015. Our
                   experienced team’s combined effort and workmanship has
                   converted this core into our strength and has created a well
                   reputation in the market of maintaining on time delivery.
@@ -90,7 +90,7 @@ const Core = () => {
                 </Link>
               </div>
             </div>
-            <div class="col-md-6 image sizing mb-4">
+            {/* <div class="col-md-6 image sizing mb-4">
               <img class="image__img w-100" src={g4_4} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">
                 FULLY COMPLIANT WITH COMPETITIVE PRICE
@@ -111,7 +111,7 @@ const Core = () => {
                   </button>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </CardGroup>
         </div>
       </div>
