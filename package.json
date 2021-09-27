@@ -1,7 +1,7 @@
 {
   "name": "trsl",
   "version": "0.1.0",
-  "homepage": "http://www.trslbd.com/",
+  "homepage": "www.trslbd.com/react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
