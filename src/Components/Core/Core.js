@@ -16,13 +16,13 @@ const Core = () => {
             {" "}
             <br /> Core Strengths
           </p>
-          <small>Manufacturing and Exporting Sweaters since year 2015. </small>
+          <small>Manufacturing and Exporting Garments since year 2015. </small>
           <br />
           <br />
         </div>
         <div className="container">
           <CardGroup className="row sizing">
-            <div class="col-md-6 image sizing mb-4">
+            <div class="col-md-4 image sizing mb-4">
               <img class="image__img w-100" src={g4_1} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">
                 ON TIME SHIPMENT
@@ -42,21 +42,42 @@ const Core = () => {
                 </Link>
               </div>
             </div>
-            <div class="col-md-6 image sizing mb-4">
+            <div class="col-md-4 image sizing mb-4">
               <img class="image__img w-100" src={g4_2} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">
                 DESIGN STUDIO
               </h5>
               <div class="image__overlay image__overlay--primary">
-                <p className="text-justify w-75 ">
+                <p className="text-justify w-75">
                   The new wing of Trade Route Sourcing, PLAIRE Studio has been an added
                   strength to gain competitive advantage in the market for which
                   we can give our customers fast and with the trend, development
-                  support of designs. Our young, energetic and trend aware team
+                  support of designs. Our young, energetic and  <abbr title="trend aware team
                   makes it fast and easy for our customer to develop their
                   designs as well saves their cost by offering developments
-                  based on their consumer and trend updates.
+                  based on their consumer and trend updates.">WHO</abbr>
                 </p>
+                <Link to="/Contact">
+                  {" "}
+                  <button type="button" class="btn btn-success ">
+                    VIEW MORE...
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div class="col-md-4 image sizing mb-4">
+              <img class="image__img w-100" src={g4_3} alt="Bricks" />
+              <h5 className="text-center bg-secondary text-white">
+                QUALITY ASSURANCE TEAM
+              </h5>
+              <div class="image__overlay image__overlay--primary">
+                <span className="text-justify w-75 ">
+                  Internal Management’s Quality Assurance team works closely and
+                  monitors the factory quality assurance team making sure there
+                  is no gap in maintaining the required quality of the customer
+                  and this operation of quality assurance has been lately a
+                  strong strength for the group.
+                </span>
                 <Link to="/Contact">
                   {" "}
                   <button type="button" class="btn btn-success ">
@@ -69,27 +90,7 @@ const Core = () => {
         </div>
         <div className="container">
           <CardGroup className="row sizing">
-            <div class="col-md-6 image sizing mb-4">
-              <img class="image__img w-100" src={g4_3} alt="Bricks" />
-              <h5 className="text-center bg-secondary text-white">
-                QUALITY ASSURANCE TEAM
-              </h5>
-              <div class="image__overlay image__overlay--primary">
-                <p className="text-justify w-75 ">
-                  Internal Management’s Quality Assurance team works closely and
-                  monitors the factory quality assurance team making sure there
-                  is no gap in maintaining the required quality of the customer
-                  and this operation of quality assurance has been lately a
-                  strong strength for the group.
-                </p>
-                <Link to="/Contact">
-                  {" "}
-                  <button type="button" class="btn btn-success ">
-                    VIEW MORE...
-                  </button>
-                </Link>
-              </div>
-            </div>
+            
             {/* <div class="col-md-6 image sizing mb-4">
               <img class="image__img w-100" src={g4_4} alt="Bricks" />
               <h5 className="text-center bg-secondary text-white">

@@ -1,5 +1,5 @@
 import React from "react";
-import pic8 from "../images/pic8.PNG";
+// import pic8 from "../images/pic8.PNG";
 import "./Truly.css";
 
 const Truly = () => {
